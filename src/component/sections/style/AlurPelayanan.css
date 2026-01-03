@@ -1,0 +1,69 @@
+.alur-section {
+  padding: 80px 0;
+  background: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.alur-title {
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #444;
+}
+
+.alur-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.alur-card {
+  background: #f5f6f7;
+  border-radius: 24px;
+  padding: 30px 24px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.alur-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.alur-number {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto 16px;
+  background: #444;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alur-card h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.alur-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .alur-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .alur-card {
+    padding: 24px;
+  }
+}

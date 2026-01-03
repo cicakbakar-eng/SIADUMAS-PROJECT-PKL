@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+.hero {
+  /* pastikan melebar penuh dan tanpa spasi atas */
+  display: block;
+  align-self: stretch;
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 50vh;
+  min-height: 320px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/* WRAPPER TEKS */
+.hero-content {
+  color: white;
+  font-family: 'Chewy', cursive;
+  
+  padding: 0 1rem;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* JUDUL UTAMA */
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+/* SUB TITLE */
+.hero-subtitle {
+  font-family: 'League Spartan', sans-serif;
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+
+/* DESKRIPSI */
+.hero-content p {
+  font-weight: bold;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+}

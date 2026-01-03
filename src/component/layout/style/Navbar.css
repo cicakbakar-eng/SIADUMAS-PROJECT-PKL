@@ -1,0 +1,51 @@
+/* ================= NAVBAR FIX ================= */
+/* SAAT SCROLL */
+
+.navbar-sticky {
+  transition: 
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    padding 0.3s ease;
+}
+.navbar-sticky.scrolled {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.navbar-adumas .navbar-inner {
+  flex-wrap: nowrap !important;
+}
+
+/* LOGO */
+.logo-instansi {
+  height: 55px;
+  transition: height 0.3s ease;
+}
+
+.logo-instansi.shrink {
+  height: 45px;
+}
+
+.logo-group {
+  height: 45px;
+  transition: height 0.3s ease;
+}
+
+
+/* RIGHT BRAND */
+.brand-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 576px) {
+  /* semisal tampilan di hp, 2 logo dikanan tidak tampil */
+  .brand-right {
+    display: none;
+  }
+
+  .logo-instansi {
+    height: 42px;
+  }
+}
