@@ -23,7 +23,7 @@ function NavbarAdumas() {
 
   return (
     <Navbar
-      sticky="top"
+      sticky=""
       className={`navbar-sticky ${scrolled ? 'scrolled' : ''}`}
     >
       <Container fluid className="d-flex align-items-center">

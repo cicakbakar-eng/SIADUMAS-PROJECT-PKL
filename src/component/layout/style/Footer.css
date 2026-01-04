@@ -1,0 +1,46 @@
+.footer-wrapper {
+  background: #0f172a; /* gelap */
+  padding: 20px 0 20px;
+}
+
+.footer-card {
+
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: flex-start; /* ikon & teks sejajar ke samping */
+  gap: 12px;
+}
+
+.footer-icon {
+  font-size: 22px;
+  color: #2563eb;
+  margin-top: 4px;
+}
+
+.footer-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
