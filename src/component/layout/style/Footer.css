@@ -1,46 +1,75 @@
 .footer-wrapper {
-  background: #0f172a; /* gelap */
-  padding: 20px 0 20px;
+  width: 100%;
+  background-color: #093970;
+  padding: 60px 0 0;
 }
 
-.footer-card {
-
-  background: #ffffff;
-  border-radius: 18px;
-  padding: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+.footer-container {
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border-radius: 24px;
 }
 
-.footer-title {
-  font-weight: 700;
-  margin-bottom: 10px;
+
+.footer-logo img {
+  max-width: 230px;
+  margin-bottom: 16px;
 }
 
-.footer-text {
-  color: #555;
-  font-size: 14px;
+.footer-logo p {
+  color: #000000;
+  max-width: 280px;
 }
 
-.footer-info {
-  display: flex;
-  align-items: flex-start; /* ikon & teks sejajar ke samping */
-  gap: 12px;
+.footer-section h6 {
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 12px;
 }
 
-.footer-icon {
-  font-size: 22px;
+.footer-section p,
+.footer-section a {
+  color: #000000;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a:hover {
   color: #2563eb;
-  margin-top: 4px;
 }
 
-.footer-info p {
-  margin: 0;
-  font-size: 14px;
-  color: #444;
+.footer-social a {
+  font-size: 18px;
+  margin-right: 12px;
+  color: #000000;
 }
 
+.footer-social a:hover {
+  color: #2563eb;
+}
 .footer-bottom {
   text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #000000;
+  color: #000000;
   font-size: 13px;
-  color: #666;
+}
+@media (max-width: 768px) {
+  .footer-wrapper {
+    text-align: center;
+  }
+
+  .footer-logo,
+  .footer-section {
+    margin-bottom: 30px;
+  }
 }
